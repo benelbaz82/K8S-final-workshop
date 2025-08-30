@@ -1,4 +1,4 @@
-# WordPress + DB on Kubernetes (Helm Chart)
+# WordPress + DB on Kubernetes
 
 This repo contains a minimal Helm chart that deploys **WordPress** with a **MySQL database** on Kubernetes.  
 The chart simply packages the existing Kubernetes manifests into a Helm release, without complex templating.
