@@ -7,6 +7,7 @@ The chart simply packages the existing Kubernetes manifests into a Helm release,
 
 ```bash
 helm upgrade --install myapp ./ -n default
+```
 
 ### Notes
 
