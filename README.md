@@ -84,16 +84,4 @@ Open in browser:
 
 http://localhost:3000
 
-```
-kubectl get secret monitoring-grafana -n monitoring -o jsonpath="{.data.admin-password}" | base64 --decode
-```
-### Create Grafana Panel
 
-Go to Grafana → Explore
-
-Run query:
-
-kube_pod_container_status_running
-
-
-Save it to a dashboard panel → shows container uptime.
