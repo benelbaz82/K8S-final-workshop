@@ -1,0 +1,11 @@
+---
+# Source: myapp/templates/wordpress.yml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: wp-data
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 5Gi
